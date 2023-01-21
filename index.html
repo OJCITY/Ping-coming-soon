@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img src="/images/logo.svg" alt="logo" class="logo" />
+      <h1 class="heading">We are launching <span>soon!</span></h1>
+      <p class="sub-heading">Subscribe and get notified</p>
+      <form action="/" id="form" method="get">
+        <div class="error">
+          <input
+            type="email"
+            id="email"
+            onclick="this.placeholder=''"
+            placeholder="Your email address...."
+          />
+          <h3>
+            Whoops! It looks like you forgot to add your email and/or Please
+            provide a valid email address
+          </h3>
+        </div>
+        <button type="submit" id="btn">Notify Me</button>
+      </form>
+      <img
+        src="/images/illustration-dashboard.png"
+        alt="dashboard-img"
+        class="dashboard-img"
+      />
+
+      <div class="icons">
+        <a href="#"><i type="blue" class="fa-brands fa-facebook"></i></a>
+        <a href="#"
+          ><i class="fa-brands fa-square-instagram" style="color: red"></i
+        ></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube" style="color: red"></i></a>
+      </div>
+      <div class="copyright">&copy; Copyright Ping. All rights reserved.</div>
+    </div>
+
+    <div>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Segun Ojo</a>.
+        </p>
+      </footer>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
